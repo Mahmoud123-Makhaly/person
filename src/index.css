@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar{
+    height: 70px;
+    background-color: rgba(17, 49, 42, 0.9)!important;
 }
+.nav-form{
+    width: 100%;
+}
+.form-control{
+    border-radius: 20px;
+}
+.card{
+    min-height: 170px;
+}
+.cardDetails{
+    height: calc(100vh - 100px);
+    background-color: #f6f6f6;
+    position: relative;
+    overflow: auto;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.details-info{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width: 90%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+}
+.details-info h6{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: 30px;
+}
+.card-info{
+    color: rgb(134, 105, 105);
+    font-size: 20px;
+    font-weight: normal;
 }
