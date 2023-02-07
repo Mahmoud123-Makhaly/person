@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom';
 import CardDetails from './components/CardDetails';
 import CardList from './components/CardList'
-import Navs from './components/Navs'
+import Navs from './components/Navs';
 
 const App = () => {
   const[posts , setPosts] = useState([]);
